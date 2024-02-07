@@ -1,0 +1,139 @@
+[
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿ Cuál de estos asegura que si algo sale mal, los cambios se conservarán una vez que el sistema esté de vuelta ?",
+        "respuesta": "Durabilidad",
+        "incorrecta1": "Atomicidad",
+        "incorrecta2": "Consistencia",
+        "incorrecta3": "Aislamiento",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿ Cuáles de los siguientes se configuran automáticamente cuando se usa @DataJpaTest ?",
+        "respuesta": "Repositorios de Spring & Fuente de datos",
+        "incorrecta1": "Seguridad de Spring",
+        "incorrecta2": "Fuente de beans",
+        "incorrecta3": "Fuente del mensaje",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿ Cuál de los siguientes métodos se llamará primero en el ciclo de vida del bean ?",
+        "respuesta": "Cualquier método anotado con @PostConstruct",
+        "incorrecta1": "Método afterPropertiesSet() en la interfaz InitializingBean{}",
+        "incorrecta2": "método de inicio como se especifica en la configuración Spring XML",
+        "incorrecta3": "Cualquier método llamado “init”",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿ A qué se refieren las expresiones SpEL que comienzan con # ?",
+        "respuesta": "Spring Beans",
+        "incorrecta1": "Propiedades en el entorno de la aplicación",
+        "incorrecta2": "Literal Values",
+        "incorrecta3": "JVM Properties",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Qué es Spring Boot y cuáles son sus características principales?",
+        "respuesta": "Un framework para desarrollo rápido de aplicaciones.",
+        "incorrecta1": "Un lenguaje de programación basado en Java.",
+        "incorrecta2": "Una base de datos relacional.",
+        "incorrecta3": "Un sistema operativo.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cuál es la diferencia entre Spring y Spring Boot?",
+        "respuesta": "Spring Boot proporciona características no funcionales comunes en aplicaciones en producción.",
+        "incorrecta1": "Spring Boot es una versión más antigua de Spring.",
+        "incorrecta2": "Spring es más fácil de configurar que Spring Boot.",
+        "incorrecta3": "Spring no requiere dependencias externas.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cómo podemos configurar una aplicación Spring Boot con Maven?",
+        "respuesta": "Heredando del proyecto spring-boot-starter-parent.",
+        "incorrecta1": "Mediante la anotación @SpringBootApplication.",
+        "incorrecta2": "Usando el comando mvn spring-boot:run.",
+        "incorrecta3": "Agregando dependencias directamente en el archivo pom.xml.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre los <starters> de Spring Boot es correcta?",
+        "respuesta": "Los <starters> son un conjunto de descriptores de dependencias.",
+        "incorrecta1": "Los <starters> son solo para aplicaciones web.",
+        "incorrecta2": "Los <starters> no afectan la configuración automática.",
+        "incorrecta3": "Los <starters> no se pueden personalizar.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Qué hace internamente la anotación @SpringBootApplication?",
+        "respuesta": "Combina @Configuration, @EnableAutoConfiguration y @ComponentScan.",
+        "incorrecta1": "Configura la seguridad de la aplicación.",
+        "incorrecta2": "Habilita el registro de eventos.",
+        "incorrecta3": "Define las propiedades de la aplicación.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cuál de las siguientes opciones describe mejor cómo funciona Spring Boot?",
+        "respuesta": "Spring Boot escanea automáticamente los componentes de la aplicación.",
+        "incorrecta1": "Spring Boot crea automáticamente una base de datos.",
+        "incorrecta2": "Spring Boot genera automáticamente código fuente.",
+        "incorrecta3": "Spring Boot compila automáticamente el código.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre Spring Boot es incorrecta?",
+        "respuesta": "Spring Boot no admite aplicaciones web.",
+        "incorrecta1": "Spring Boot proporciona un servidor de aplicaciones integrado.",
+        "incorrecta2": "Spring Boot ofrece características de producción listas para usar.",
+        "incorrecta3": "Spring Boot simplifica la configuración de Spring.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cuál es el objetivo principal de la funcionalidad Actuator en Spring Boot?",
+        "respuesta": "Habilitar la monitorización y gestión de la aplicación.",
+        "incorrecta1": "Proporcionar seguridad en la aplicación.",
+        "incorrecta2": "Generar registros de errores.",
+        "incorrecta3": "Optimizar el rendimiento de la aplicación.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Qué es la autoconfiguración en Spring Boot?",
+        "respuesta": "La capacidad de configurar automáticamente una aplicación según las dependencias presentes en el classpath.",
+        "incorrecta1": "La capacidad de configurar manualmente todas las dependencias.",
+        "incorrecta2": "La capacidad de deshabilitar todas las características de Spring Boot.",
+        "incorrecta3": "La capacidad de generar automáticamente código fuente.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Cuál de las siguientes opciones no es una característica de Spring Boot?",
+        "respuesta": "Generación de informes de errores.",
+        "incorrecta1": "Autoconfiguración.",
+        "incorrecta2": "Logging.",
+        "incorrecta3": "Seguridad.",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Entrevista Java - Spring Boot",
+        "pregunta": "¿Qué anotación se usa para inyectar una dependencia en un bean de Spring?",
+        "respuesta": "@Autowired ",
+        "incorrecta1": "@Bean",
+        "incorrecta2": "@Component",
+        "incorrecta3": "@Service",
+        "objectFit": "cover"
+    }
+  
+    
+]

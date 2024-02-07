@@ -1,0 +1,5 @@
+ para que sirve la carpeta.mvn?
+version de maven que se debe instalar al iniciar el proyecto, eliminando la necesidad de que los desarrolladores instalen Maven de forma local.
+
+ para que sirve la carpeta.idea?
+R/. es una configuracion de intellij idea para el proyecto spring
